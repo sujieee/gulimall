@@ -4,6 +4,12 @@ spring:
     password: sj20010117
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://39.97.120.131:3306/gulimall_ums
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimall-member
 mybatis-plus:
   global-config:
     db-config:
